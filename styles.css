@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pixel {
+    background-color: white;
+    user-select: none;
+}
+
+.container {
+    display: grid;
+    width: 50%;
+    border: solid 5px black;
+}
+
+.slidecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
